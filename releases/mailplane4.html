@@ -10,6 +10,21 @@ description: Mailplane 4 Release Notes
 <section class="content">
 	<div class="container">
 		<div class="cnt-txt">
+			<div style="padding-bottom: 10px;">
+				<p style="color:red; font-weight: bold">
+					Mailplane and future macOS versions
+				</p>
+				<p>
+					Apple is showing a warning about Intel-based apps. No immediate action is needed. You can continue to use
+					Mailplane 4 on macOS 26 (Tahoe) and the upcoming macOS 27 (Golden Gate).
+					<a href="https://support.apple.com/en-us/102527" target="_blank">Learn more from Apple</a>.
+				</p>
+				<p>
+					<strong>Meanwhile, we're busy giving Mailplane a new engine.</strong>
+					A new version for Apple silicon and Intel Macs is in the works. We will share more when it is ready.
+				</p>
+			</div>
+
 			<ul class="blog-list">
 				{% assign sorted_posts = site.categories.release_mailplane4 | sort: "build_number" %}
 				{% for post in sorted_posts reversed %}
