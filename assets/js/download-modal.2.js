@@ -1,6 +1,12 @@
 $(function() {
     var modalElementId = navigator.userAgent.indexOf("Macintosh") >= 0 ? "modal_macos" : "modal_non_macos";
 
+    $("a.open-newsletter-modal").click(function(event) {
+        event.preventDefault();
+        $("#modal_macos")
+            .removeClass("modal")
+            .addClass("modalon");
+    });
     $("a.open-download-modal").click(function() {
         $("#"+modalElementId)
             .removeClass("modal")
@@ -14,12 +20,12 @@ $(function() {
         }
     });
     $(".modalbg").click(function() {
-        $("#"+modalElementId)
+        $(this).closest("section")
             .removeClass("modalon")
             .addClass("modal");
     });
     $(".modalclose").click(function() {
-        $("#"+modalElementId)
+        $(this).closest("section")
             .removeClass("modalon")
             .addClass("modal");
     });
