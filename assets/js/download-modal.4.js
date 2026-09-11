@@ -1,12 +1,20 @@
 $(function() {
     var modalElementId = navigator.userAgent.indexOf("Macintosh") >= 0 ? "modal_macos" : "modal_non_macos";
 
-    $("a.open-newsletter-modal").click(function(event) {
-        event.preventDefault();
+    function openNewsletterModal() {
         $("#modal_macos")
             .removeClass("modal")
             .addClass("modalon");
+    }
+
+    $("a.open-newsletter-modal").click(function(event) {
+        event.preventDefault();
+        openNewsletterModal();
     });
+
+    if(window.location.hash === "#modal_macos") {
+        openNewsletterModal();
+    }
     $("a.open-download-modal").click(function() {
         $("#"+modalElementId)
             .removeClass("modal")
