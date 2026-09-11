@@ -34,11 +34,8 @@ Existing license holders can therefore continue using Mailplane 4 on macOS 27 af
 
 The uncertainty that led to our decision in 2021 has not disappeared entirely. Mailplane still depends on Google allowing its sign-in approach to work, and Google could change that in the future.
 
-But two important things have changed.
-
-First, Mailplane 4 is still working more than five years later. Our approach has proved far more durable than we could responsibly assume in 2021.
-
-Second, advances in AI-assisted software development have made the migration to a new framework feasible for our small team. A project that previously required an investment we could not justify is now achievable at a level that allows us to take the remaining risk.
+But Mailplane 4 is still working more than five years later. Its sign-in approach has proved far more durable than we could responsibly assume in 2021.
+Just as importantly, many of you have continued to use Mailplane every day, and we have continued to hear how much it matters to you. We are deeply grateful for that loyalty.
 
 **That is why we can now confirm that Mailplane 5 is in development.** [Join our mailing list](https://mailplaneapp.com/blog/entry/mailplane_is_still_flying.html#modal_macos){: .open-newsletter-modal} if you would like to follow its progress.
 
