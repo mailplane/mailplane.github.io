@@ -23,8 +23,10 @@ footer_replies_link_label: Try replies.io! Our smart customer support tool.
         <h3>Mailplane 5<br/>Get ready for takeoff!</h3>
         <h4>We’re giving Mailplane a new engine, built for Apple silicon and Intel Macs. Be the first to hear when it’s ready.</h4>
         <ul>
-            <form action="https://update.mailplaneapp.com/newsletter_signup.php" method="post">
+            <form action="https://lists.mailplaneapp.com/signup.php" method="post">
                 <input type="hidden" name="language" value="en">
+                <input type="hidden" name="mailing_list" value="mailplane-5-beta">
+                <input type="hidden" name="success_url" value="https://mailplaneapp.com/subscribed.html">
                 <input type="text" name="contact_url" value="" tabindex="-1" autocomplete="off" aria-hidden="true" style="position: absolute; left: -10000px;">
                 <li class="form-field">
                     <input class="field" type="email" placeholder="your@email.com" name="email" autocomplete="email" required>
